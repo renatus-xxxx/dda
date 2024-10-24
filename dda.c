@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define WIDTH  32
-#define HEIGHT 26
+#define WIDTH  31
+#define HEIGHT 25
 
 void drawline(int x0, int y0, int x1, int y1, int screen[HEIGHT][WIDTH]) {
   int dx = x1 - x0;
