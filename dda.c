@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
   int y1 = atoi(argv[2]);
 
   if(x1 < 0 || x1 >= WIDTH || y1 < 0 || y1 >= HEIGHT) {
-    printf("Coordinates out of bounds (0-31 for x and 0-25 for y)\n");
+    printf("Coordinates out of bounds (0-%d for x and 0-%d for y)\n", WIDTH - 1, HEIGHT - 1);
     return 1;
   }
 
